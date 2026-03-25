@@ -6,19 +6,19 @@ Oracles play a critical role in bridging the gap between blockchain and the exte
 
 The most common applications of oracles include:
 
-- Providing up-to-date token prices for different pairs, which is essential for DeFi protocols and financial products.
-- Enabling dynamic NFTs that can change their properties based on real-world events, adding a layer of interactivity and uniqueness.
+* Providing up-to-date token prices for different pairs, which is essential for DeFi protocols and financial products.
+* Enabling dynamic NFTs that can change their properties based on real-world events, adding a layer of interactivity and uniqueness.
 
----
+***
 
 ## ⎑ Push vs Pull
 
 Oracles operate using two primary models:
 
-- **Push Model:** In this traditional approach, the oracle regularly pushes data to an on-chain contract, which dApps can access as needed.
-- **Pull Model:** This newer model involves oracles signing data and keeping it on an external network. When dApps need updated data, users pull the signed data and submit it on-chain with their transaction.
+* **Push Model:** In this traditional approach, the oracle regularly pushes data to an on-chain contract, which dApps can access as needed.
+* **Pull Model:** This newer model involves oracles signing data and keeping it on an external network. When dApps need updated data, users pull the signed data and submit it on-chain with their transaction.
 
----
+***
 
 ### Pyth <a href="#redstone" id="redstone"></a>
 
@@ -26,12 +26,12 @@ Pyth offers push-based price feeds for Hemi.&#x20;
 
 #### **Supported Networks:**
 
-- Hemi Mainnet
-- Hemi Sepolia
+* Hemi Mainnet
+* Hemi Sepolia
 
 {% embed url="https://insights.pyth.network/price-feeds?search=hemi" %}
 
----
+***
 
 ### Redstone <a href="#redstone" id="redstone"></a>
 
@@ -39,12 +39,12 @@ Redstone offers push-based price feeds for Hemi.&#x20;
 
 #### Supported Networks:
 
-- Hemi Mainnet
-- Hemi Sepolia
+* Hemi Mainnet
+* Hemi Sepolia
 
 {% embed url="https://app.redstone.finance/app/feeds/?networks=743111,43111&page=1&sortBy=popularity&sortDesc=false&perPage=32" %}
 
----
+***
 
 ### Stork <a href="#redstone" id="redstone"></a>
 
@@ -52,11 +52,11 @@ Stork offers pull-based price feeds for Hemi.&#x20;
 
 #### Supported Networks:
 
-- Hemi Mainnet
+* Hemi Mainnet
 
 {% embed url="https://docs.stork.network/resources/contract-addresses/evm#hemi" %}
 
----
+***
 
 ### eOracle <a href="#redstone" id="redstone"></a>
 
@@ -64,11 +64,11 @@ eOracle offers pull-based price feeds for Hemi.&#x20;
 
 #### Supported Networks:
 
-- Hemi Mainnet
+* Hemi Mainnet
 
 {% embed url="https://docs.eo.app/docs/eprice/feed-addresses/hemi" %}
 
----
+***
 
 ### DIA <a href="#dia" id="dia"></a>
 
@@ -76,6 +76,6 @@ DIA offers push-based fundamental & market price feeds on Hemi.
 
 #### Supported Networks:
 
-- Hemi Mainnet
+* Hemi Mainnet
 
 {% embed url="https://www.diadata.org/docs/guides/chain-specific-guide/hemi" %}
